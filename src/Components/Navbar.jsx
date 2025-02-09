@@ -23,7 +23,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "ContactUs",
+    title: "Contact",
   },
 ];
 

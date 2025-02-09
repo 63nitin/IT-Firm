@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-gradient-to-r from-purple-500 to-blue-500 px-5 flex justify-between items-center navbar sticky top-0 z-50">
       {/* Logo */}
-      <img src="./public/logo2.png"
+      <img src="./logo2.png"
        className="h-20 w-20"
       alt="" />
 

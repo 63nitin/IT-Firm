@@ -58,7 +58,7 @@ const Navbar = () => {
               active === nav.id ? "text-white" : "text-gray-700"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => {
-              setActive(nav.id); // Fix: Use nav.id instead of nav.title for consistency
+              setActive(nav.id); 
               handleScroll(nav.id);
             }}
           >
@@ -70,7 +70,7 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <div className="p-4 sm:hidden flex flex-1 justify-end items-center">
         <img
-          src="../public/menus.png"
+          src="./menus.png"
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle(!toggle)}
@@ -90,7 +90,7 @@ const Navbar = () => {
           active === nav.title ? "text-white" : "text-gray-600"
         } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
         onClick={() => {
-          setActive(nav.id); // Fix: Use nav.id instead of nav.title for consistency
+          setActive(nav.id); 
           handleScroll(nav.id);
         }}
       >

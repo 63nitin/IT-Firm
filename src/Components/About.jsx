@@ -19,7 +19,7 @@ const About = () => {
           {/* Right Side: Image */}
           <div className="md:w-1/2">
             <img
-              src="../public/firm.png"
+              src="./firm.png"
               alt="About Us"
               className="rounded-lg shadow-lg w-full"
             />
